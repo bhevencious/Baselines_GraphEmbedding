@@ -1,0 +1,633 @@
+
+
+----Node2Vec: Cora----
+Training Time: 0.24933362007141113 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.77 		 0.79
+1: 	 0.96 		 0.75
+2: 	 0.95 		 0.76
+3: 	 0.92 		 0.83
+4: 	 0.93 		 0.81
+5: 	 0.94 		 0.86
+6: 	 0.94 		 0.79
+              precision    recall  f1-score   support
+
+           0       0.58      0.85      0.69       164
+           1       0.78      0.50      0.61        36
+           2       0.72      0.53      0.61        43
+           3       0.81      0.68      0.74        85
+           4       0.80      0.64      0.71        70
+           5       0.84      0.74      0.78        84
+           6       0.82      0.60      0.69        60
+
+   micro avg       0.70      0.70      0.70       542
+   macro avg       0.76      0.65      0.69       542
+weighted avg       0.74      0.70      0.70       542
+ samples avg       0.70      0.70      0.70       542
+
+
+
+----SDNE: Cora----
+Training Time: 0.24538898468017578 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.50 		 0.62
+1: 	 0.94 		 0.57
+2: 	 0.93 		 0.58
+3: 	 0.86 		 0.65
+4: 	 0.87 		 0.59
+5: 	 0.86 		 0.62
+6: 	 0.89 		 0.55
+              precision    recall  f1-score   support
+
+           0       0.37      0.91      0.53       164
+           1       0.83      0.14      0.24        36
+           2       0.70      0.16      0.26        43
+           3       0.60      0.35      0.44        85
+           4       0.54      0.20      0.29        70
+           5       0.64      0.27      0.38        84
+           6       0.64      0.12      0.20        60
+
+   micro avg       0.43      0.43      0.43       542
+   macro avg       0.62      0.31      0.33       542
+weighted avg       0.56      0.43      0.38       542
+ samples avg       0.43      0.43      0.43       542
+
+
+
+----DeepWalk: Cora----
+Training Time: 0.3949465751647949 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.76 		 0.77
+1: 	 0.94 		 0.70
+2: 	 0.94 		 0.70
+3: 	 0.87 		 0.75
+4: 	 0.90 		 0.68
+5: 	 0.90 		 0.79
+6: 	 0.92 		 0.80
+              precision    recall  f1-score   support
+
+           0       0.57      0.80      0.67       164
+           1       0.58      0.42      0.48        36
+           2       0.72      0.42      0.53        43
+           3       0.58      0.59      0.58        85
+           4       0.68      0.39      0.49        70
+           5       0.72      0.63      0.67        84
+           6       0.63      0.65      0.64        60
+
+   micro avg       0.61      0.61      0.61       542
+   macro avg       0.64      0.56      0.58       542
+weighted avg       0.63      0.61      0.61       542
+ samples avg       0.61      0.61      0.61       542
+
+
+
+----LINE: Cora----
+Training Time: 0.2593066692352295 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.48 		 0.59
+1: 	 0.94 		 0.58
+2: 	 0.93 		 0.59
+3: 	 0.87 		 0.66
+4: 	 0.87 		 0.59
+5: 	 0.84 		 0.56
+6: 	 0.90 		 0.61
+              precision    recall  f1-score   support
+
+           0       0.35      0.85      0.50       164
+           1       0.86      0.17      0.28        36
+           2       0.80      0.19      0.30        43
+           3       0.65      0.35      0.46        85
+           4       0.50      0.20      0.29        70
+           5       0.43      0.15      0.23        84
+           6       0.61      0.23      0.34        60
+
+   micro avg       0.42      0.42      0.42       542
+   macro avg       0.60      0.31      0.34       542
+weighted avg       0.53      0.42      0.37       542
+ samples avg       0.42      0.42      0.42       542
+
+
+
+----Node2Vec: CiteSeer----
+Training Time: 0.3341054916381836 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.85 		 0.73
+1: 	 0.82 		 0.74
+2: 	 0.78 		 0.74
+3: 	 0.92 		 0.53
+4: 	 0.86 		 0.69
+5: 	 0.78 		 0.63
+              precision    recall  f1-score   support
+
+           0       0.57      0.55      0.56       119
+           1       0.55      0.60      0.58       134
+           2       0.49      0.66      0.56       140
+           3       0.33      0.06      0.10        50
+           4       0.55      0.45      0.50       102
+           5       0.38      0.40      0.39       118
+
+   micro avg       0.51      0.51      0.51       663
+   macro avg       0.48      0.45      0.45       663
+weighted avg       0.50      0.51      0.49       663
+ samples avg       0.51      0.51      0.51       663
+
+
+
+----SDNE: CiteSeer----
+Training Time: 0.327162504196167 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.80 		 0.56
+1: 	 0.80 		 0.60
+2: 	 0.42 		 0.55
+3: 	 0.92 		 0.51
+4: 	 0.84 		 0.55
+5: 	 0.80 		 0.52
+              precision    recall  f1-score   support
+
+           0       0.37      0.19      0.25       119
+           1       0.50      0.27      0.35       134
+           2       0.24      0.77      0.36       140
+           3       0.20      0.02      0.04        50
+           4       0.45      0.14      0.21       102
+           5       0.31      0.09      0.14       118
+
+   micro avg       0.29      0.29      0.29       663
+   macro avg       0.35      0.25      0.23       663
+weighted avg       0.36      0.29      0.25       663
+ samples avg       0.29      0.29      0.29       663
+
+
+
+----DeepWalk: CiteSeer----
+Training Time: 0.5504837036132812 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.81 		 0.69
+1: 	 0.81 		 0.71
+2: 	 0.75 		 0.69
+3: 	 0.92 		 0.53
+4: 	 0.84 		 0.66
+5: 	 0.76 		 0.59
+              precision    recall  f1-score   support
+
+           0       0.46      0.51      0.49       119
+           1       0.53      0.54      0.54       134
+           2       0.43      0.57      0.49       140
+           3       0.43      0.06      0.11        50
+           4       0.47      0.41      0.44       102
+           5       0.33      0.32      0.32       118
+
+   micro avg       0.45      0.45      0.45       663
+   macro avg       0.44      0.40      0.40       663
+weighted avg       0.45      0.45      0.43       663
+ samples avg       0.45      0.45      0.45       663
+
+
+
+----LINE: CiteSeer----
+Training Time: 0.2513277530670166 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.72 		 0.50
+1: 	 0.67 		 0.59
+2: 	 0.65 		 0.56
+3: 	 0.93 		 0.53
+4: 	 0.80 		 0.52
+5: 	 0.76 		 0.55
+              precision    recall  f1-score   support
+
+           0       0.18      0.15      0.16       119
+           1       0.30      0.47      0.36       134
+           2       0.28      0.39      0.32       140
+           3       0.60      0.06      0.11        50
+           4       0.22      0.12      0.15       102
+           5       0.27      0.21      0.24       118
+
+   micro avg       0.27      0.27      0.27       663
+   macro avg       0.31      0.23      0.23       663
+weighted avg       0.28      0.27      0.25       663
+ samples avg       0.27      0.27      0.27       663
+
+
+
+----Node2Vec: Zachary-Karate----
+Training Time: 0.003985881805419922 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.86 		 0.50
+1: 	 0.29 		 0.20
+2: 	 0.86 		 0.50
+3: 	 0.29 		 0.29
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         1
+           1       0.00      0.00      0.00         2
+           2       0.00      0.00      0.00         1
+           3       0.25      0.33      0.29         3
+
+   micro avg       0.14      0.14      0.14         7
+   macro avg       0.06      0.08      0.07         7
+weighted avg       0.11      0.14      0.12         7
+ samples avg       0.14      0.14      0.14         7
+
+
+
+----SDNE: Zachary-Karate----
+Training Time: 0.0040247440338134766 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.86 		 0.50
+1: 	 0.71 		 0.65
+2: 	 0.86 		 0.50
+3: 	 0.71 		 0.75
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         1
+           1       0.50      0.50      0.50         2
+           2       0.00      0.00      0.00         1
+           3       0.60      1.00      0.75         3
+
+   micro avg       0.57      0.57      0.57         7
+   macro avg       0.28      0.38      0.31         7
+weighted avg       0.40      0.57      0.46         7
+ samples avg       0.57      0.57      0.57         7
+
+
+
+----DeepWalk: Zachary-Karate----
+Training Time: 0.004950046539306641 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.86 		 0.50
+1: 	 0.57 		 0.70
+2: 	 0.86 		 0.50
+3: 	 0.57 		 0.54
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         1
+           1       0.40      1.00      0.57         2
+           2       0.00      0.00      0.00         1
+           3       0.50      0.33      0.40         3
+
+   micro avg       0.43      0.43      0.43         7
+   macro avg       0.23      0.33      0.24         7
+weighted avg       0.33      0.43      0.33         7
+ samples avg       0.43      0.43      0.43         7
+
+
+
+----LINE: Zachary-Karate----
+Training Time: 0.002979755401611328 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.86 		 0.50
+1: 	 0.71 		 0.65
+2: 	 0.86 		 0.50
+3: 	 0.71 		 0.75
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         1
+           1       0.50      0.50      0.50         2
+           2       0.00      0.00      0.00         1
+           3       0.60      1.00      0.75         3
+
+   micro avg       0.57      0.57      0.57         7
+   macro avg       0.28      0.38      0.31         7
+weighted avg       0.40      0.57      0.46         7
+ samples avg       0.57      0.57      0.57         7
+
+
+
+----Node2Vec: Internet-Industry-Partnerships----
+Training Time: 0.007985115051269531 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.82 		 0.50
+1: 	 0.70 		 0.62
+2: 	 0.84 		 0.65
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         8
+           1       0.68      1.00      0.81        27
+           2       0.75      0.33      0.46         9
+
+   micro avg       0.68      0.68      0.68        44
+   macro avg       0.48      0.44      0.42        44
+weighted avg       0.57      0.68      0.59        44
+ samples avg       0.68      0.68      0.68        44
+
+
+
+----SDNE: Internet-Industry-Partnerships----
+Training Time: 0.007978200912475586 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.82 		 0.50
+1: 	 0.61 		 0.50
+2: 	 0.80 		 0.50
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         8
+           1       0.61      1.00      0.76        27
+           2       0.00      0.00      0.00         9
+
+   micro avg       0.61      0.61      0.61        44
+   macro avg       0.20      0.33      0.25        44
+weighted avg       0.38      0.61      0.47        44
+ samples avg       0.61      0.61      0.61        44
+
+
+
+----DeepWalk: Internet-Industry-Partnerships----
+Training Time: 0.010973453521728516 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.82 		 0.55
+1: 	 0.82 		 0.79
+2: 	 0.73 		 0.62
+              precision    recall  f1-score   support
+
+           0       0.50      0.12      0.20         8
+           1       0.81      0.93      0.86        27
+           2       0.36      0.44      0.40         9
+
+   micro avg       0.68      0.68      0.68        44
+   macro avg       0.56      0.50      0.49        44
+weighted avg       0.66      0.68      0.65        44
+ samples avg       0.68      0.68      0.68        44
+
+
+
+----LINE: Internet-Industry-Partnerships----
+Training Time: 0.007969379425048828 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.82 		 0.50
+1: 	 0.61 		 0.50
+2: 	 0.80 		 0.50
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         8
+           1       0.61      1.00      0.76        27
+           2       0.00      0.00      0.00         9
+
+   micro avg       0.61      0.61      0.61        44
+   macro avg       0.20      0.33      0.25        44
+weighted avg       0.38      0.61      0.47        44
+ samples avg       0.61      0.61      0.61        44
+
+
+
+----Node2Vec: Facebook-Page2Page----
+Training Time: 3.716350555419922 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.90 		 0.88
+1: 	 0.91 		 0.90
+2: 	 0.92 		 0.90
+3: 	 0.93 		 0.83
+              precision    recall  f1-score   support
+
+           0       0.82      0.83      0.82      1299
+           1       0.84      0.87      0.86      1376
+           2       0.83      0.86      0.85      1154
+           3       0.81      0.68      0.74       665
+
+   micro avg       0.83      0.83      0.83      4494
+   macro avg       0.83      0.81      0.82      4494
+weighted avg       0.83      0.83      0.83      4494
+ samples avg       0.83      0.83      0.83      4494
+
+
+
+----Node2Vec: Facebook-Page2Page----
+Training Time: 3.611344575881958 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.89 		 0.87
+1: 	 0.91 		 0.90
+2: 	 0.91 		 0.89
+3: 	 0.93 		 0.82
+              precision    recall  f1-score   support
+
+           0       0.81      0.82      0.81      1299
+           1       0.84      0.87      0.85      1376
+           2       0.81      0.85      0.83      1154
+           3       0.84      0.67      0.74       665
+
+   micro avg       0.82      0.82      0.82      4494
+   macro avg       0.82      0.80      0.81      4494
+weighted avg       0.82      0.82      0.82      4494
+ samples avg       0.82      0.82      0.82      4494
+
+
+
+----SDNE: Facebook-Page2Page----
+Training Time: 3.58337140083313 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.70 		 0.76
+1: 	 0.84 		 0.78
+2: 	 0.82 		 0.71
+3: 	 0.86 		 0.58
+              precision    recall  f1-score   support
+
+           0       0.49      0.90      0.64      1299
+           1       0.80      0.63      0.70      1376
+           2       0.70      0.50      0.58      1154
+           3       0.65      0.19      0.29       665
+
+   micro avg       0.61      0.61      0.61      4494
+   macro avg       0.66      0.56      0.55      4494
+weighted avg       0.66      0.61      0.59      4494
+ samples avg       0.61      0.61      0.61      4494
+
+
+
+----DeepWalk: Facebook-Page2Page----
+Training Time: 1.7192912101745605 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.87 		 0.85
+1: 	 0.90 		 0.89
+2: 	 0.89 		 0.87
+3: 	 0.90 		 0.75
+              precision    recall  f1-score   support
+
+           0       0.75      0.81      0.78      1299
+           1       0.84      0.85      0.84      1376
+           2       0.76      0.82      0.79      1154
+           3       0.75      0.52      0.62       665
+
+   micro avg       0.78      0.78      0.78      4494
+   macro avg       0.78      0.75      0.76      4494
+weighted avg       0.78      0.78      0.78      4494
+ samples avg       0.78      0.78      0.78      4494
+
+
+
+----LINE: Facebook-Page2Page----
+Training Time: 1.2716002464294434 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.73 		 0.73
+1: 	 0.80 		 0.77
+2: 	 0.83 		 0.75
+3: 	 0.87 		 0.63
+              precision    recall  f1-score   support
+
+           0       0.53      0.72      0.61      1299
+           1       0.66      0.71      0.68      1376
+           2       0.72      0.59      0.65      1154
+           3       0.66      0.29      0.40       665
+
+   micro avg       0.62      0.62      0.62      4494
+   macro avg       0.64      0.58      0.59      4494
+weighted avg       0.64      0.62      0.61      4494
+ samples avg       0.62      0.62      0.62      4494
+
+
+
+----Node2Vec: Pubmed-Diabetes----
+Training Time: 0.972367525100708 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.80 		 0.51
+1: 	 0.57 		 0.58
+2: 	 0.60 		 0.59
+              precision    recall  f1-score   support
+
+           0       0.74      0.03      0.05       821
+           1       0.47      0.65      0.55      1575
+           2       0.49      0.55      0.52      1548
+
+   micro avg       0.48      0.48      0.48      3944
+   macro avg       0.57      0.41      0.37      3944
+weighted avg       0.54      0.48      0.43      3944
+ samples avg       0.48      0.48      0.48      3944
+
+
+
+----SDNE: Pubmed-Diabetes----
+Training Time: 1.74934720993042 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.80 		 0.52
+1: 	 0.48 		 0.56
+2: 	 0.65 		 0.56
+              precision    recall  f1-score   support
+
+           0       0.65      0.05      0.10       821
+           1       0.43      0.96      0.59      1575
+           2       0.74      0.17      0.27      1548
+
+   micro avg       0.46      0.46      0.46      3944
+   macro avg       0.61      0.39      0.32      3944
+weighted avg       0.60      0.46      0.36      3944
+ samples avg       0.46      0.46      0.46      3944
+
+
+
+----DeepWalk: Pubmed-Diabetes----
+Training Time: 2.508293390274048 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.81 		 0.56
+1: 	 0.67 		 0.67
+2: 	 0.68 		 0.69
+              precision    recall  f1-score   support
+
+           0       0.65      0.15      0.24       821
+           1       0.57      0.67      0.62      1575
+           2       0.58      0.71      0.63      1548
+
+   micro avg       0.58      0.58      0.58      3944
+   macro avg       0.60      0.51      0.50      3944
+weighted avg       0.59      0.58      0.55      3944
+ samples avg       0.58      0.58      0.58      3944
+
+
+
+----LINE: Pubmed-Diabetes----
+Training Time: 1.0733153820037842 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.79 		 0.52
+1: 	 0.51 		 0.53
+2: 	 0.56 		 0.54
+              precision    recall  f1-score   support
+
+           0       0.48      0.05      0.08       821
+           1       0.42      0.60      0.50      1575
+           2       0.44      0.46      0.45      1548
+
+   micro avg       0.43      0.43      0.43      3944
+   macro avg       0.45      0.37      0.34      3944
+weighted avg       0.44      0.43      0.39      3944
+ samples avg       0.43      0.43      0.43      3944
+
+
+
+----Node2Vec: Terrorists-Relation----
+Training Time: 0.04392194747924805 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.86 		 0.86
+1: 	 0.96 		 0.92
+2: 	 0.85 		 0.71
+3: 	 0.96 		 0.95
+              precision    recall  f1-score   support
+
+           0       0.86      0.88      0.87        92
+           1       0.82      0.86      0.84        21
+           2       0.60      0.50      0.55        30
+           3       0.86      0.93      0.89        27
+
+   micro avg       0.82      0.82      0.82       170
+   macro avg       0.79      0.79      0.79       170
+weighted avg       0.81      0.82      0.81       170
+ samples avg       0.82      0.82      0.82       170
+
+
+
+----SDNE: Terrorists-Relation----
+Training Time: 0.04488015174865723 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.81 		 0.80
+1: 	 0.97 		 0.92
+2: 	 0.84 		 0.62
+3: 	 0.98 		 0.93
+              precision    recall  f1-score   support
+
+           0       0.77      0.92      0.84        92
+           1       0.90      0.86      0.88        21
+           2       0.56      0.30      0.39        30
+           3       1.00      0.85      0.92        27
+
+   micro avg       0.79      0.79      0.79       170
+   macro avg       0.81      0.73      0.76       170
+weighted avg       0.78      0.79      0.78       170
+ samples avg       0.79      0.79      0.79       170
+
+
+
+----DeepWalk: Terrorists-Relation----
+Training Time: 0.050859689712524414 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.88 		 0.88
+1: 	 0.96 		 0.92
+2: 	 0.86 		 0.73
+3: 	 0.96 		 0.95
+              precision    recall  f1-score   support
+
+           0       0.88      0.90      0.89        92
+           1       0.82      0.86      0.84        21
+           2       0.64      0.53      0.58        30
+           3       0.86      0.93      0.89        27
+
+   micro avg       0.84      0.84      0.84       170
+   macro avg       0.80      0.80      0.80       170
+weighted avg       0.83      0.84      0.83       170
+ samples avg       0.84      0.84      0.84       170
+
+
+
+----LINE: Terrorists-Relation----
+Training Time: 0.0388946533203125 seconds
+class 	 accuracy 	 roc_score
+0: 	 0.85 		 0.84
+1: 	 0.96 		 0.92
+2: 	 0.84 		 0.65
+3: 	 0.96 		 0.92
+              precision    recall  f1-score   support
+
+           0       0.82      0.92      0.87        92
+           1       0.82      0.86      0.84        21
+           2       0.58      0.37      0.45        30
+           3       0.92      0.85      0.88        27
+
+   micro avg       0.81      0.81      0.81       170
+   macro avg       0.78      0.75      0.76       170
+weighted avg       0.79      0.81      0.79       170
+ samples avg       0.81      0.81      0.81       170
+
